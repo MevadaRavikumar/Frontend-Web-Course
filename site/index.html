@@ -3,8 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>My first experiance with HTML</title>
-
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+
+</style>
 <body>
 	<header>This curriculum vitae explicitly made in HTML. The main motivation here is to learn the fundamentals of HTML. The second page of this curriculum vitae can be found by clicking this link. <nav>link for the second page</nav></header>
 <table border="0.5" align="center" width="60%">
@@ -15,56 +21,44 @@
 	</tr>
 	<tr>
 		<th align="left">
-			<p>
-				<img src="cv_photo.jpg" width="200" height="200" align="right">
-			</p>
-			<h2><span style="color: blue; font-weight: bold; opacity: .90"> Personal Details</span>
-				<div style="font-size: 20px">First and Last Name: &nbsp Ravikumar Mevada</div><div style="font-size: 20px">Birthdate: &nbsp&nbsp&nbsp 27 January 1992</div><div style="font-size: 20px">Place of Birth:  &nbsp&nbsp Ahmedabad,India</div><div style="font-size: 20px">Nationality: &nbsp&nbsp Indian</div><div style="font-size: 20px">Marital Status: &nbsp&nbsp Single</div><div style="font-size: 20px">Email: &nbsp&nbsp mevada.ravikumar@gmail.com </div><div style="font-size: 20px">Mobile Number: &nbsp&nbsp +49 (0) 176 69001315 </div><div style="font-size: 20px">Postal Address: &nbsp&nbsp Kreuzeck Straße 5, 85354, Freising </div>
-			</h2>
-			<h2><span style="color: blue; font-weight: bold; opacity: .90"> Work Experiance</span>
-				<h3><span style="color: blue; font-weight: bold; opacity: .70"> 09/2018 till 08/2019  Fraunhofer IVV, Freising, Germany </span>
-					<section>
-						<article> Research Assistant (HIWI), Responsibilities: Signal Processing of Physiological Sensors in LabChart Software, Writing Macros in Visual Basic for further Signal Processing in LabChart, Communication of LabChart with Python and then to Arduino to Operate Olfactometer (Arduino Uno, L298 Driver, 12V solenoid valve), User-friendly Software to Control the Operation in Python </article>
-					</section>
-				</h3>
-			</h2>
-			<h2><span style="color: blue; font-weight: bold; opacity: .90"> Education and Training</span> 
-					<h3><span style="color: blue; font-weight: bold; opacity: .70"> 10/2014 till 02/2019  Ernst Abbe Hochschule, Jena, Germany </span>
-						<section>
-							<article> Master of Science (M.Sc.) in Scientific Instrumentation, Main Subjects: Embedded Digital System, Optical Instruments, 3 D Designs (Autodesk Inventor), FEM and Simulation (ANSYS), Selected Topics of Sensors (2.4 / 5) </article>
-						</section>
-					</h3>
-					<h3><span style="color: blue; font-weight: bold; opacity: .70"> 03/2018 till 08/2018  Fraunhofer IVV, Freising, Germany </span>
-						<section>
-							<article> Master Thesis, Development to Couple a Gustometer with an Olfactometer using Python, Major Task: Video Recording in Python using OpenCV via Multi-threading, Data Management in Python with Excel using Openpyxl, Construction of the Olfactometer Heating System and PID Programming in Arduino IDE, Calibration and Optimization of the System Hardware and Software </article>
-						</section>
-					</h3>
-					<h3><span style="color: blue; font-weight: bold; opacity: .70"> 07/2017 till 01/2018  Fraunhofer IVV, Freising, Germany </span>
-						<section>
-							<article> Practical Internship, Triggering of the Gustometer from Python, Major Task: Creation of the Library of C Wrapper for C++ Class Member Functions or API of Gustometer’s (CETONI GmbH) Pump, Valve, Digital IO, Error and Qmix TC Modules using Python’s CFFI Library, Triggering of the Gustometer from Python, Generating GUIs in Python using Tkinter library, Designing of the Gustometer Stand and Mouthpiece in Autodesk Inventor </article>
-						</section>
-					</h3>
-					<h3><span style="color: blue; font-weight: bold; opacity: .70">07/2009 till 05/2013  L. D. College of Engineering, Ahmedabad </span>
-						<section>
-							<article>Bachelor of Engineering in Instrumentation and Control, Main Subjects: Bio-medical Instrumentation, Microcontroller, Microprocessor, Sensor and Signal Conditioning, Motion Control, SPS Programming, Control System Components, Industrial Measurement, Control System Design, Bus Communication (7.88 CGPA) </article>
-						</section>
-					</h3>
-					<h3><span style="color: blue; font-weight: bold; opacity: .70"> 07/2012 till 05/2013  KHS Machinery Pvt. Ltd, Ahmedabad, India </span>
-						<section>
-							<article> Bachelor Thesis, Automated Storage and Retrieve System, Main Task: PLC Programming of DC Motors and Photo Sensors for the Three Axis Motion of the Robot (S7 and WinCC) </article>
-						</section>
-					</h3>
-			</h2>
-			<h2><span style="color: blue; font-weight: bold; opacity: .90"> Personal Skills</span> 
-					<h3><span style="color: blue; font-weight: bold; opacity: .70">Languages</span>
+			<img src="cv_photo.jpg" width="200" height="200" align="right">
+			<h2> Personal Details</h2>
+				<div>First and Last Name: &nbsp Ravikumar Mevada</div><div>Birthdate: &nbsp&nbsp&nbsp 27 January 1992</div><div>Place of Birth:  &nbsp&nbsp Ahmedabad,India</div><div>Nationality: &nbsp&nbsp Indian</div><div>Marital Status: &nbsp&nbsp Single</div><div>Email: &nbsp&nbsp mevada.ravikumar@gmail.com </div><div>Mobile Number: &nbsp&nbsp +49 (0) 176 69001315 </div><div>Postal Address: &nbsp&nbsp Kreuzeck Straße 5, 85354, Freising </div>
+			
+			<h2> Work Experiance </h2>
+				<p id="datestyle"> 09/2018 till 08/2019</p> 
+				<p>Fraunhofer IVV, Freising, Germany Research Assistant (HIWI)Responsibilities: Signal Processing of Physiological Sensors in LabChart Software, Writing Macros in Visual Basic for further Signal Processing in LabChart, Communication of LabChart with Python and then to Arduino to Operate Olfactometer (Arduino Uno, L298 Driver, 12V solenoid valve), User-friendly Software to Control the Operation in Python </p>
+					
+				
+			
+			<h2>Education and Training </h2>
+					<p id="datestyle"> 10/2014 till 02/2019</p>
+					<p>Ernst Abbe Hochschule, Jena, Germany Master of Science (M.Sc.) in Scientific Instrumentation, Main Subjects: Embedded Digital System, Optical Instruments, 3 D Designs (Autodesk Inventor), FEM and Simulation (ANSYS), Selected Topics of Sensors (2.4 / 5) </p>
+					
+					<p id="datestyle">03/2018 till 08/2018   </p>	
+					<p>Fraunhofer IVV, Freising, Germany Master Thesis, Development to Couple a Gustometer with an Olfactometer using Python, Major Task: Video Recording in Python using OpenCV via Multi-threading, Data Management in Python with Excel using Openpyxl, Construction of the Olfactometer Heating System and PID Programming in Arduino IDE, Calibration and Optimization of the System Hardware and Software </p>	
+					
+					<p id="datestyle"> 07/2017 till 01/2018   </p>
+					<p>Fraunhofer IVV, Freising, Germany Practical Internship, Triggering of the Gustometer from Python, Major Task: Creation of the Library of C Wrapper for C++ Class Member Functions or API of Gustometer’s (CETONI GmbH) Pump, Valve, Digital IO, Error and Qmix TC Modules using Python’s CFFI Library, Triggering of the Gustometer from Python, Generating GUIs in Python using Tkinter library, Designing of the Gustometer Stand and Mouthpiece in Autodesk Inventor </p>
+						
+					<p id="datestyle">07/2009 till 05/2013  </p>
+					<p>L. D. College of Engineering, Ahmedabad Bachelor of Engineering in Instrumentation and Control, Main Subjects: Bio-medical Instrumentation, Microcontroller, Microprocessor, Sensor and Signal Conditioning, Motion Control, SPS Programming, Control System Components, Industrial Measurement, Control System Design, Bus Communication (7.88 CGPA) </p>		
+				
+					<p id="datestyle">07/2012 till 05/2013   </p>
+					<p>KHS Machinery Pvt. Ltd, Ahmedabad, India Bachelor Thesis, Automated Storage and Retrieve System, Main Task: PLC Programming of DC Motors and Photo Sensors for the Three Axis Motion of the Robot (S7 and WinCC) </p>
+						
+					
+			
+			<h2> Personal Skills </h2>
+					<h3>Languages</h3>
 						<ul>
 							<li>German (Intermediate User, B 2.1) </li>
 							<li>English (Professional User, C 2) </li>
 							<li>Hindi (Mother Tongue) </li>
 							<li>Gujarati (Mother Tongue) </li>
 						</ul>
-					</h3>
-					<H3><span style="color: blue; font-weight: bold; opacity: .70">Digital Skills</span>
+					
+					<h3>Digital Skills</h3>
 						<ul>
 							<li>Advance User: 
 								<ul>
@@ -94,34 +88,20 @@
 								</ul>
 							</li>
 						</ul>
-					</H3>
-			</h2>
+					
+			
 		</th>
 	</tr>
 </table>
 
-
-<div>This is a sample of unorderd list of the projects, that I will be doing with HTML,&nbsp;CSS&nbsp;and&nbsp;JavaScript(the same way using ol you can make ordered list): 
-	<ul>
-		<li>My curriculum vitae</li>  <!-- This paer is done only stayling got let. That will be done with CSS	-->
-		<li>My future resturant
-			<ul>
-			<li>The main page</li>
-			<li>The menu page</li>
-			<li>The todays special page</li>
-			<li>The order page</li>
-			<li>The registration page</li>
-			</ul>
-		</li>
-		<li>The secret website</li>
-	</ul>
- </div>
-<aside style="font-style: italic; color: red">I am a self&nbsp;made&nbsp;programmer!</aside>
 <footer><hr>
-	<p style="text-align: center; font-size: 1.5em"
-	onclick="alert ('Hi, The email is not active right now.');"> Please contact me on: mevada.ravikumar@gmail.com</p>
-	<a href="https://www.linkedin.com/in/ravikumar-mevada-0b5ab9ba/" target="blank" title="Please look at my job intrests">Linked in profile!</a>
+	<a href="https://www.linkedin.com/in/ravikumar-mevada-0b5ab9ba/" target="blank" title="Please look at my job intrests">Linked in</a>
+	<a href="https://www.facebook.com/ravi.mevada.33" target="blank" title="Please look at my job intrests">Facebook</a>
+	<a href="https://www.instagram.com/mevadaravi/?hl=en" target="blank" title="Please look at my job intrests">Instagram</a>
+	<p style="text-align: left; font-size: 1.5em;"
+	onclick="alert ('Hi, The email is not active right now.');"> Email: mevada.ravikumar@gmail.com</p>
+	<p style="text-align: center;">Ravikumar Mevada 2019 &copy; Copyright</p>
 </footer>
-<p style="text-align: center;">Ravikumar Mevada 2019 &copy; Copyright</p>
+
 </body>
 </html>

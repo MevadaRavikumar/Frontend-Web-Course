@@ -1,0 +1,39 @@
+h2 {
+	font-weight: bold;
+	color: blue;
+	float: both;
+}
+ul li {
+	font-size: 15px;
+	font-weight: none;
+}
+h2 div {
+	font-size: 15px;
+	font-weight: none;	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	background-color: gray;
+	border: 1px solid blue;
+	margin-right: 20px;
+}
+a:hover, a:active {
+	background-color: black;
+	color: white;
+}
+body {
+	font-family: "Times New Roman", Times, serif;;	
+}
+p {
+	width: 50%;
+	font-weight: none;
+	color: black;
+	float: left;	
+}
+#datestyle{
+	color: blue;
+}
+
+
+
