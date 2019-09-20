@@ -12,6 +12,7 @@ body{
 }
 img {
 	max-width: 100%;
+	max-height: 100%;
 }
 a{
 	color: #323232;
@@ -58,10 +59,8 @@ img.avatar{
 	font-weight: 300;
 	color: #236FB2;
 }
-.links{
-	display: inline-grid;
-	justify-content: space-between;
-	margin-bottom: 20px;
+.columns{
+	column-count: 2;
 	
 }
 
