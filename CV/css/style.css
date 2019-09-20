@@ -59,10 +59,13 @@ img.avatar{
 	color: #236FB2;
 }
 .links{
-	display: flex;
-	margin: 10px 0 20px 0;
-	align-items: center;
+	display: inline-grid;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	
 }
+
+
 
 /**********************************
 *Experiance
@@ -107,7 +110,10 @@ img.avatar{
 	justify-content: space-between;
 }
 
-.interest-container div {
-	height: 40px;
-	opacity: 0.5;
+@media only screen and (max-width: 768px){
+	section{
+		grid-template-columns: 1fr;
+
+	}
+
 }
