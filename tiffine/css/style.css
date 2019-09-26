@@ -76,11 +76,11 @@ body{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile{
-	background: url('https://github.com/MevadaRavikumar/Frontend-Web-Course/tree/master/tiffine/images/alu_puri.jpg') no-repeat;
+	background: url('../images/alu_puri.jpg') no-repeat;
 	background-position: center;
 }
 #special-tile{
-	background: url('https://github.com/MevadaRavikumar/Frontend-Web-Course/tree/master/tiffine/images/alu_puri.jpg') no-repeat;
+	background: url('../images/alu_puri.jpg') no-repeat;
 	background-position: center;
 }
 #menu-tile span, #special-tile span, #map-tile span{
@@ -217,7 +217,7 @@ h3.menu-item-name{
 /***********large device**********/
 @media (min-width: 1200px){
 	.container .jumbotron{
-		background: url('https://github.com/MevadaRavikumar/Frontend-Web-Course/tree/master/tiffine/images/jumbo-main.jpg') no-repeat;
+		background: url('../images/jumbo-main.jpg') no-repeat;
 		height: 650px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
@@ -230,7 +230,7 @@ h3.menu-item-name{
 /***********medium device**********/
 @media (min-width: 992px) and (max-width: 1199px){
 	.container .jumbotron{
-		background: url('https://github.com/MevadaRavikumar/Frontend-Web-Course/tree/master/tiffine/images/jambo-1.jpeg') no-repeat;
+		background: url('../images/jambo-1.jpeg') no-repeat;
 		height: 600px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
@@ -249,7 +249,7 @@ h3.menu-item-name{
 /***********samll device**********/
 @media(min-width: 768px) and (max-width: 991px){
 	.container .jumbotron{
-		background: url('https://github.com/MevadaRavikumar/Frontend-Web-Course/tree/master/tiffine/images/jambo-3.jpeg') no-repeat;
+		background: url('../images/jambo-3.jpeg') no-repeat;
 		height: 580px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
