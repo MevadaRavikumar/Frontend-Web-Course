@@ -15,7 +15,7 @@ img {
 	max-height: 100%;
 }
 a{
-	color: #323232;
+	color: blue;
 	text-decoration: none;
 }
 a.hover{
@@ -60,7 +60,7 @@ img.avatar{
 	color: #236FB2;
 }
 .columns{
-	column-count: 2;
+	column-count: 3;
 	
 }
 
