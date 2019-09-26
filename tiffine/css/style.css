@@ -217,7 +217,7 @@ h3.menu-item-name{
 /***********large device**********/
 @media (min-width: 1200px){
 	.container .jumbotron{
-		background: url('../images/tiffine_background_3.jpg') no-repeat;
+		background: url('../images/jumbo-main.jpg') no-repeat;
 		height: 650px;
 		box-shadow: 0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
